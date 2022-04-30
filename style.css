@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fuentes/font-1-13.ttf);
+}
+
+body{
+    background-image: url(images/Fondo.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navBar{
+    padding-top: 70px;
+    padding-right: 50px;
+}
+
+nav .navBar a{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+nav .navBar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.navImg img{
+width: 200px;
+padding-left: 50px;
+}
+
+h1{
+    color: white;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 90px;
+    animation: text 1s ease-in-out;
+}
+
+#imgDownload{
+    width: 50px;
+    padding-left: 50px;
+}
+
+#downloadApp div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downloadApp{
+    background-color: #674DB0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-desc{
+    width: 800px;
+    color: #d4c8f8;
+    letter-spacing: 2px;
+}
+
+.download{
+    padding: 3rem;
+    background-image: url(/images/Fondo.jpg);
+}
+
+#gameInfo{
+padding: 1rem;
+background-color: #907AD0;
+}
+
+i{
+    font-size: 100px;
+    color: white;
+}
+
+.container-text i{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+@keyframes animacion {
+    from {
+      transform: translateY(-30px);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+    
+}
+
+#imgalex{
+    animation: animacion 1s infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes text {
+    85%{
+      letter-spacing: 15px;
+      margin-bottom: 0px;
+    }
+}
+
+.container-download div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.container-download div h4{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.container-download div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+
+#imgDownload2{
+    width: 150px;
+    padding: 20px;
+}
+
+#h4-dowload{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 4rem;
+    animation: animation-text 1s infinite;
+}
+
+@keyframes animation-text {
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+#gameplay{
+    padding: 2rem;
+    background-color: #584196;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gameplay div{
+    padding-top: 20px;
+}
+
+#beta{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #d4c8f8;
+    letter-spacing: 2px;
+    animation: animation-text 2s infinite;
+    text-align: center;
+}
+
+.alexis-head{
+    display: flex;
+
+}
+
+
+iframe{
+    border: 10px solid #453377;
+    border-radius: 10px;
+}
